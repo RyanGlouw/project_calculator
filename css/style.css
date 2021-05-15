@@ -4,6 +4,9 @@ body {
   background: linear-gradient(to left, #dd1818, #333333);
   color: white;
   user-select: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
 }
 
 .container {
@@ -59,12 +62,14 @@ input {
   grid-column: 3/-1;
   background: black
 }
-.equal{
+
+.equal {
   grid-column: 4;
   grid-row: 6/8;
   background: blanchedalmond;
   color: black;
 }
+
 .zero {
   grid-column: 1/3;
 }
